@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SiPolicy xmlns="urn:schemas-microsoft-com:sipolicy">
+  <VersionEx>1.0.0.0</VersionEx>
+  <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
+  <Rules />
+  <!--EKUS-->
+  <EKUs />
+  <!--File Rules-->
+  <FileRules>
+    <FileAttrib ID="ID_FILEATTRIB_F_1" ProductName="Microsoft Teams"                MinimumFileVersion="0.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2" ProductName="Microsoft® Visual Studio® 2015" MinimumFileVersion="14.0.24210.0" />
+  </FileRules>
+  <!--Signers-->
+  <Signers>
+    <Signer ID="ID_SIGNER_F_1" Name="Microsoft Code Signing PCA 2010">
+      <CertRoot Type="TBS" Value="121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_2" Name="Microsoft Code Signing PCA 2011">
+      <CertRoot Type="TBS" Value="F6F717A43AD9ABDDC8CEFDDE1C505462535E7D1307E630F9544A2D14FE8BF26E" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_3" Name="Microsoft Code Signing PCA 2011">
+      <CertRoot Type="TBS" Value="F6F717A43AD9ABDDC8CEFDDE1C505462535E7D1307E630F9544A2D14FE8BF26E" />
+      <CertPublisher Value="Microsoft 3rd Party Application Component" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1" />
+    </Signer>
+  </Signers>
+  <!--Driver Signing Scenarios-->
+  <SigningScenarios>
+    <SigningScenario Value="131" ID="ID_SIGNINGSCENARIO_DRIVERS_1" FriendlyName="Auto generated policy on 03-20-2020">
+      <ProductSigners />
+    </SigningScenario>
+    <SigningScenario Value="12" ID="ID_SIGNINGSCENARIO_WINDOWS" FriendlyName="Auto generated policy on 03-20-2020">
+      <ProductSigners>
+        <AllowedSigners>
+          <AllowedSigner SignerId="ID_SIGNER_F_1" />
+          <AllowedSigner SignerId="ID_SIGNER_F_2" />
+          <AllowedSigner SignerId="ID_SIGNER_F_3" />
+        </AllowedSigners>
+      </ProductSigners>
+    </SigningScenario>
+  </SigningScenarios>
+  <UpdatePolicySigners />
+  <CiSigners>
+    <CiSigner SignerId="ID_SIGNER_F_1" />
+    <CiSigner SignerId="ID_SIGNER_F_2" />
+    <CiSigner SignerId="ID_SIGNER_F_3" />
+  </CiSigners>
+  <HvciOptions>0</HvciOptions>
+  <PolicyTypeID>{A244370E-44C9-4C06-B551-F6016E563076}</PolicyTypeID>
+</SiPolicy>

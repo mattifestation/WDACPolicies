@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SiPolicy xmlns="urn:schemas-microsoft-com:sipolicy">
+  <VersionEx>1.0.0.0</VersionEx>
+  <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
+  <Rules />
+  <!--EKUS-->
+  <EKUs />
+  <!--File Rules-->
+  <FileRules>
+    <FileAttrib ID="ID_FILEATTRIB_F_1" FriendlyName="%APPDATA%\Zoom\ZoomDownload\Installer.exe" FileName="Zoom Installer"  MinimumFileVersion="4.6.18176.301" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2" FriendlyName="%APPDATA%\Zoom\bin\annoter.dll"            FileName="annoter.dll"     MinimumFileVersion="35.0.1602.20" />
+    <FileAttrib ID="ID_FILEATTRIB_F_3" FriendlyName="%APPDATA%\Zoom\bin\aomagent.dll"           FileName="Zoom"            MinimumFileVersion="4.6.18176.301" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4" FriendlyName="%APPDATA%\Zoom\bin\CptControl.exe"         FileName="CptControl.exe"  MinimumFileVersion="1.0.0.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5" FriendlyName="%APPDATA%\Zoom\bin\CptHost.exe"            FileName="CptHost.exe"     MinimumFileVersion="2.5.2014.228" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6" FriendlyName="%APPDATA%\Zoom\bin\CptService.exe"         FileName="CptService.exe"  MinimumFileVersion="3.5.2019.910" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7" FriendlyName="%APPDATA%\Zoom\bin\CptShare.dll"           FileName="CptShare.dll"    MinimumFileVersion="2.1.2013.626" />
+    <FileAttrib ID="ID_FILEATTRIB_F_8" FriendlyName="%APPDATA%\Zoom\bin\libeay32.dll"           FileName="libeay32.dll"    MinimumFileVersion="1.0.2.15" />
+    <FileAttrib ID="ID_FILEATTRIB_F_9" FriendlyName="%APPDATA%\Zoom\bin\ssb_sdk.dll"            FileName="ssb_sdk.dll"     MinimumFileVersion="2.7.507.2014" />
+    <FileAttrib ID="ID_FILEATTRIB_F_A" FriendlyName="%APPDATA%\Zoom\bin\ssleay32.dll"           FileName="ssleay32.dll"    MinimumFileVersion="1.0.2.15" />
+    <FileAttrib ID="ID_FILEATTRIB_F_B" FriendlyName="%APPDATA%\Zoom\bin\tp.dll"                 FileName="tp.dll"          MinimumFileVersion="1.0.2012.1222" />
+    <FileAttrib ID="ID_FILEATTRIB_F_C" FriendlyName="%APPDATA%\Zoom\bin\util.dll"               FileName="util.dll"        MinimumFileVersion="1.0.2012.1222" />
+    <FileAttrib ID="ID_FILEATTRIB_F_D" FriendlyName="%APPDATA%\Zoom\bin\XmppDll.dll"            FileName="gloox.dll"       MinimumFileVersion="1.0.11.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_E" FriendlyName="%APPDATA%\Zoom\bin\zCrashReport.dll"       FileName="CrashRpt.dll"    MinimumFileVersion="1.3.0.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F" FriendlyName="%APPDATA%\Zoom\bin\zCrashReport.exe"       FileName="CrashSender.exe" MinimumFileVersion="1.3.0.1" />
+    <Allow ID="ID_ALLOW_A_1" FriendlyName="%APPDATA%\Zoom\bin\libfaac.dll Hash Sha1"          Hash="5FAE0359B0139A6DA7A6B4931B6892E11350FE0B" />
+    <Allow ID="ID_ALLOW_A_2" FriendlyName="%APPDATA%\Zoom\bin\libfaac.dll Hash Sha256"        Hash="4119FEB4249EBA6D1BF971842E67AFD61412300A13DA2CAE5CD13747854687C0" />
+    <Allow ID="ID_ALLOW_A_3" FriendlyName="%APPDATA%\Zoom\bin\libfaac.dll Hash Page Sha1"     Hash="8E9C8A2120602B84FC6162876A3E4D1202987276" />
+    <Allow ID="ID_ALLOW_A_4" FriendlyName="%APPDATA%\Zoom\bin\libfaac.dll Hash Page Sha256"   Hash="C06EC9F4B13AE74A9269D297F7111498CE39AD9A8E685A8EF096146B1D2B3C7F" />
+    <Allow ID="ID_ALLOW_A_5" FriendlyName="%APPDATA%\Zoom\bin\turbojpeg.dll Hash Sha1"        Hash="03FBBC5B5C8C505DAC25E70A1648D3D57B50A71F" />
+    <Allow ID="ID_ALLOW_A_6" FriendlyName="%APPDATA%\Zoom\bin\turbojpeg.dll Hash Sha256"      Hash="D71041E36AA74F400A5C4CC526AEC7C3FF390E2A86502CB58444F200294F3922" />
+    <Allow ID="ID_ALLOW_A_7" FriendlyName="%APPDATA%\Zoom\bin\turbojpeg.dll Hash Page Sha1"   Hash="B1926FFB59F3B39D6C6BDD080DC5D3EF83FD1C03" />
+    <Allow ID="ID_ALLOW_A_8" FriendlyName="%APPDATA%\Zoom\bin\turbojpeg.dll Hash Page Sha256" Hash="FAB4E38AE48436F6F643A85980EA22B6828F1E4F199A33F449018E2A7AD5E582" />
+  </FileRules>
+  <!--Signers-->
+  <Signers>
+    <Signer ID="ID_SIGNER_F_1" Name="DigiCert EV Code Signing CA (SHA2)">
+      <CertRoot Type="TBS" Value="EEC58131DC11CD7F512501B15FDBC6074C603B68CA91F7162D5A042054EDB0CF" />
+      <CertPublisher Value="Zoom Video Communications, Inc." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_3" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_9" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_A" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_B" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_C" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F" />
+    </Signer>
+  </Signers>
+  <!--Driver Signing Scenarios-->
+  <SigningScenarios>
+    <SigningScenario Value="131" ID="ID_SIGNINGSCENARIO_DRIVERS_1" FriendlyName="Auto generated policy on 03-22-2020">
+      <ProductSigners />
+    </SigningScenario>
+    <SigningScenario Value="12" ID="ID_SIGNINGSCENARIO_WINDOWS" FriendlyName="Auto generated policy on 03-22-2020">
+      <ProductSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_ALLOW_A_1" />
+          <FileRuleRef RuleID="ID_ALLOW_A_2" />
+          <FileRuleRef RuleID="ID_ALLOW_A_3" />
+          <FileRuleRef RuleID="ID_ALLOW_A_4" />
+          <FileRuleRef RuleID="ID_ALLOW_A_5" />
+          <FileRuleRef RuleID="ID_ALLOW_A_6" />
+          <FileRuleRef RuleID="ID_ALLOW_A_7" />
+          <FileRuleRef RuleID="ID_ALLOW_A_8" />
+        </FileRulesRef>
+        <AllowedSigners>
+          <AllowedSigner SignerId="ID_SIGNER_F_1" />
+        </AllowedSigners>
+      </ProductSigners>
+    </SigningScenario>
+  </SigningScenarios>
+  <UpdatePolicySigners />
+  <CiSigners>
+    <CiSigner SignerId="ID_SIGNER_F_1" />
+  </CiSigners>
+  <HvciOptions>0</HvciOptions>
+  <PolicyTypeID>{A244370E-44C9-4C06-B551-F6016E563076}</PolicyTypeID>
+</SiPolicy>
