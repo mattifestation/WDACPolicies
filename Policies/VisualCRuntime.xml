@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SiPolicy xmlns="urn:schemas-microsoft-com:sipolicy">
+  <VersionEx>1.0.0.0</VersionEx>
+  <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
+  <Rules />
+  <!--EKUS-->
+  <EKUs />
+  <!--File Rules-->
+  <FileRules>
+    <Allow ID="ID_ALLOW_A_3" FriendlyName="3814634.msi Hash Sha1" Hash="7CEFD18064FE0A00C05877B9C8554FA51D1D9E45" />
+    <Allow ID="ID_ALLOW_A_4" FriendlyName="3814634.msi Hash Sha256" Hash="BF5E383CDB480C33B8933D5F0E2FF1DED7EE5EE03BC9EBA14E3D6A4D8D0DA37B" />
+    <Allow ID="ID_ALLOW_A_5" FriendlyName="3814634.msi Hash Authenticode SIP Sha256" Hash="0BEA06A2AED1C2168999BED204C1C2F6475DB25DFCBE0BE9D5080FCF101CE0D5" />
+    <Allow ID="ID_ALLOW_A_6" FriendlyName="3814638.msi Hash Sha1" Hash="6F74CFE88D06B9CA93A82823D08B9D58C23EB83A" />
+    <Allow ID="ID_ALLOW_A_7" FriendlyName="3814638.msi Hash Sha256" Hash="D77438ECBE9A3F8A73845B8759A2DCCD6B9D3FBFA26E2AB761061C72F895BBA6" />
+    <Allow ID="ID_ALLOW_A_8" FriendlyName="3814638.msi Hash Authenticode SIP Sha256" Hash="29E88C0752110BA146C1F523BE7D821A35B69927A566C8502D56737A0AF92697" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1" MinimumFileVersion="14.20.27508.1" ProductName="Microsoft® Visual Studio® 2017" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2" MinimumFileVersion="14.20.27508.1" ProductName="Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.20.27508" />
+  </FileRules>
+  <!--Signers-->
+  <Signers>
+    <Signer ID="ID_SIGNER_F_1" Name="Microsoft Code Signing PCA">
+      <CertRoot Type="TBS" Value="27543A3F7612DE2261C7228321722402F63A07DE" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_2" Name="Microsoft Code Signing PCA 2011">
+      <CertRoot Type="TBS" Value="F6F717A43AD9ABDDC8CEFDDE1C505462535E7D1307E630F9544A2D14FE8BF26E" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2" />
+    </Signer>
+  </Signers>
+  <!--Driver Signing Scenarios-->
+  <SigningScenarios>
+    <SigningScenario Value="131" ID="ID_SIGNINGSCENARIO_DRIVERS_1" FriendlyName="Auto generated policy on 03-24-2020">
+      <ProductSigners />
+    </SigningScenario>
+    <SigningScenario Value="12" ID="ID_SIGNINGSCENARIO_WINDOWS" FriendlyName="Auto generated policy on 03-24-2020">
+      <ProductSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_ALLOW_A_3" />
+          <FileRuleRef RuleID="ID_ALLOW_A_4" />
+          <FileRuleRef RuleID="ID_ALLOW_A_5" />
+          <FileRuleRef RuleID="ID_ALLOW_A_6" />
+          <FileRuleRef RuleID="ID_ALLOW_A_7" />
+          <FileRuleRef RuleID="ID_ALLOW_A_8" />
+        </FileRulesRef>
+        <AllowedSigners>
+          <AllowedSigner SignerId="ID_SIGNER_F_1" />
+          <AllowedSigner SignerId="ID_SIGNER_F_2" />
+        </AllowedSigners>
+      </ProductSigners>
+    </SigningScenario>
+  </SigningScenarios>
+  <UpdatePolicySigners />
+  <CiSigners>
+    <CiSigner SignerId="ID_SIGNER_F_1" />
+    <CiSigner SignerId="ID_SIGNER_F_2" />
+  </CiSigners>
+  <HvciOptions>0</HvciOptions>
+  <PolicyTypeID>{A244370E-44C9-4C06-B551-F6016E563076}</PolicyTypeID>
+</SiPolicy>

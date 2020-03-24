@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SiPolicy xmlns="urn:schemas-microsoft-com:sipolicy">
+  <VersionEx>1.0.0.0</VersionEx>
+  <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
+  <Rules />
+  <!--EKUS-->
+  <EKUs>
+    <EKU ID="ID_EKU_E_1" Value="010A2B0601040182370A0305" FriendlyName="Windows Hardware Driver Verification" />
+  </EKUs>
+  <!--File Rules-->
+  <FileRules>
+    <Allow ID="ID_ALLOW_A_91" FriendlyName="%CommonProgramFiles%\VMware\InstallerCache\{25932044-BBC8-444F-ACF4-7E508054FA12}.msi Hash Sha1" Hash="EF44ABE69C6A67EDE3B06F809690A7A70931A6B5" />
+    <Allow ID="ID_ALLOW_A_92" FriendlyName="%CommonProgramFiles%\VMware\InstallerCache\{25932044-BBC8-444F-ACF4-7E508054FA12}.msi Hash Sha256" Hash="F188D2BD1D06FF6A8601165922FE7C65CF1F8AF5C0F3C23D47BACF4F377AF6C8" />
+    <Allow ID="ID_ALLOW_A_93" FriendlyName="%CommonProgramFiles%\VMware\InstallerCache\{25932044-BBC8-444F-ACF4-7E508054FA12}.msi Hash Authenticode SIP Sha256" Hash="39BFD49F68DDD33E7F847AB3614ADD328AA6D0674070261DB2FC4B8AAA25B512" />
+    <Allow ID="ID_ALLOW_A_94" FriendlyName="%CommonProgramFiles%\VMware\InstallerCache\{7B09CBED-1199-4BA3-9948-A28DB7C9C396}.msi Hash Sha1" Hash="44ED350A4F5306478B7E6DA7A09FCD6E72D542F5" />
+    <Allow ID="ID_ALLOW_A_95" FriendlyName="%CommonProgramFiles%\VMware\InstallerCache\{7B09CBED-1199-4BA3-9948-A28DB7C9C396}.msi Hash Sha256" Hash="77FB73F7D81E56903DDF7DA088C2C1B622C2A59D84F85BC2BA4D8EF3397DA166" />
+    <Allow ID="ID_ALLOW_A_96" FriendlyName="%CommonProgramFiles%\VMware\InstallerCache\{7B09CBED-1199-4BA3-9948-A28DB7C9C396}.msi Hash Authenticode SIP Sha256" Hash="7DD52703BE3A29331C0B399C53F221191EF0E411E9ECB23602370F0DE824897C" />
+    <Allow ID="ID_ALLOW_A_97" FriendlyName="%CommonProgramFiles%\VMware\Drivers\vss\comreg.exe Hash Sha1" Hash="0FA7BFC750ACD7468A40C2830A6AB9FB6BE08F53" />
+    <Allow ID="ID_ALLOW_A_98" FriendlyName="%CommonProgramFiles%\VMware\Drivers\vss\comreg.exe Hash Sha256" Hash="AA387BA0D195FC601D8608EFF30E2093DC1B4C7176DBD76FB77CAF456478BEED" />
+    <Allow ID="ID_ALLOW_A_99" FriendlyName="%CommonProgramFiles%\VMware\Drivers\vss\comreg.exe Hash Page Sha1" Hash="E6F06D5590A1D8F20309F1306CD4E1C8F983D420" />
+    <Allow ID="ID_ALLOW_A_9A" FriendlyName="%CommonProgramFiles%\VMware\Drivers\vss\comreg.exe Hash Page Sha256" Hash="7CC77EB5A1AF77EE5FD8AA32DCAC93A780DE24FBC1C7E5F45133615371973D84" />
+    <Allow ID="ID_ALLOW_A_9B" FriendlyName="%ProgramFiles%\VMware\VMware Tools\vm-support.vbs Hash Sha1" Hash="9B77A9D8893D1E70D76C8D5B7750130CDDC7A1B1" />
+    <Allow ID="ID_ALLOW_A_9C" FriendlyName="%ProgramFiles%\VMware\VMware Tools\vm-support.vbs Hash Sha256" Hash="414389D5BF8C0922219995E17B3DD5D24A9541A762FFBAE2D1E3D42A8312C77B" />
+    <Allow ID="ID_ALLOW_A_9D" FriendlyName="%ProgramFiles%\VMware\VMware Tools\vm-support.vbs Hash Authenticode SIP Sha256" Hash="1635FE8F4A672E3B1591B48D64655BD3329CB0529C0813C0C6D8263AF40898D1" />
+    <Allow ID="ID_ALLOW_A_9E" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\libxmlsec-openssl.dll Hash Sha1" Hash="01985956BC4328588BE49A791A5AF16034528EAA" />
+    <Allow ID="ID_ALLOW_A_9F" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\libxmlsec-openssl.dll Hash Sha256" Hash="5F74F8D6290EE245E6374CB2877789F1C9EAD45577BE0E5B54959B38E4C51F58" />
+    <Allow ID="ID_ALLOW_A_A0" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\libxmlsec-openssl.dll Hash Page Sha1" Hash="BC773200ADF23E302D8F880D717A2A44422B619C" />
+    <Allow ID="ID_ALLOW_A_A1" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\libxmlsec-openssl.dll Hash Page Sha256" Hash="820DF5537FAE8B2D95D3FFD46C59B4CDD0E6082E35B58B59C8C825E1714086AE" />
+    <Allow ID="ID_ALLOW_A_A2" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\libxmlsec.dll Hash Sha1" Hash="8C57A49E7CC70F3D514AB0748C2D4DB334740ADD" />
+    <Allow ID="ID_ALLOW_A_A3" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\libxmlsec.dll Hash Sha256" Hash="A8B9FB0C69C996CD8ED464BE15550246430FB134EC912026D55F8CD0620452A1" />
+    <Allow ID="ID_ALLOW_A_A4" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\libxmlsec.dll Hash Page Sha1" Hash="88BD6D6DE44F56233DC590F4D9289F84DBC6C1A4" />
+    <Allow ID="ID_ALLOW_A_A5" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\libxmlsec.dll Hash Page Sha256" Hash="37A3DE0C5FFC36080FD881DA91E82C2A75F800712CD334D9902FA51197EC2905" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1"  FriendlyName="D:\Program Files\VMware\VMware Tools\Drivers\pvscsi\Win8\i386\pvscsi.sys" FileName="pvscsi.sys" MinimumFileVersion="1.3.15.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_53" FriendlyName="D:\VMwareToolsUpgrader.exe" FileName="upgrader.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_54" FriendlyName="D:\setup.exe" FileName="setup.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\vmxnet3\Win8\vmxnet3.sys" FileName="vmxnet3.sys" MinimumFileVersion="1.8.16.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\vmci\sockets\Win8\vsock.sys" FileName="vsock.sys" MinimumFileVersion="9.8.16.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_A"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\vmci\device\Win8\vmci.sys" FileName="vmci.sys" MinimumFileVersion="9.8.16.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_C"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\rawdsk\Win8\vmrawdsk.sys" FileName="vmrawdsk.sys" MinimumFileVersion="1.1.5.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\mouse\Win8\vmmouse.sys" FileName="vmmouse.sys" MinimumFileVersion="12.5.10.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_11" FriendlyName="%CommonProgramFiles%\VMware\Drivers\mouse\Win8\vmusbmouse.sys" FileName="vmusbmouse.sys" MinimumFileVersion="12.5.10.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_13" FriendlyName="%CommonProgramFiles%\VMware\Drivers\memctl\Win8\vmmemctl.sys" FileName="vmmemctl.sys" MinimumFileVersion="7.5.5.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_15" FriendlyName="%CommonProgramFiles%\VMware\Drivers\hgfs\Win8\vmhgfs.sys" FileName="vmhgfs.sys" MinimumFileVersion="11.0.40.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_55" FriendlyName="%CommonProgramFiles%\VMware\Drivers\vss\VCBSnapshotProvider.dll" FileName="VCBSnapshotProvider.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\vmxnet3\Win8\vmxnet3.sys" FileName="vmxnet3.sys" MinimumFileVersion="1.8.16.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_8"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\vmci\sockets\Win8\vsock.sys" FileName="vsock.sys" MinimumFileVersion="9.8.16.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_9"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\vmci\sockets\Win8\vsocklib_x64.dll" FileName="vsocklib.DLL" MinimumFileVersion="9.8.16.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_B"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\vmci\device\Win8\vmci.sys" FileName="vmci.sys" MinimumFileVersion="9.8.16.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_D"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\rawdsk\Win8\vmrawdsk.sys" FileName="vmrawdsk.sys" MinimumFileVersion="1.1.5.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_E"  FriendlyName="%CommonProgramFiles%\VMware\Drivers\pvscsi\Win8\pvscsi.sys" FileName="pvscsi.sys" MinimumFileVersion="1.3.15.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_10" FriendlyName="%CommonProgramFiles%\VMware\Drivers\mouse\Win8\vmmouse.sys" FileName="vmmouse.sys" MinimumFileVersion="12.5.10.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_12" FriendlyName="%CommonProgramFiles%\VMware\Drivers\mouse\Win8\vmusbmouse.sys" FileName="vmusbmouse.sys" MinimumFileVersion="12.5.10.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_14" FriendlyName="%CommonProgramFiles%\VMware\Drivers\memctl\Win8\vmmemctl.sys" FileName="vmmemctl.sys" MinimumFileVersion="7.5.5.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_16" FriendlyName="%CommonProgramFiles%\VMware\Drivers\hgfs\Win8\vmhgfs.sys" FileName="vmhgfs.sys" MinimumFileVersion="11.0.40.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_17" FriendlyName="%CommonProgramFiles%\VMware\Drivers\hgfs\Win8\vmhgfs_x64.dll" FileName="vmhgfs.dll" MinimumFileVersion="11.0.40.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_56" FriendlyName="%ProgramFiles%\VMware\VMware Tools\7za.exe" FileName="7za.exe" MinimumFileVersion="18.6.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_57" FriendlyName="%ProgramFiles%\VMware\VMware Tools\deployPkg.dll" FileName="deployPkg.dll" MinimumFileVersion="11.0.5.15567" />
+    <FileAttrib ID="ID_FILEATTRIB_F_58" FriendlyName="%ProgramFiles%\VMware\VMware Tools\gio-2.0.dll" FileName="libgio-2.0-0.dll" MinimumFileVersion="2.48.2.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_59" FriendlyName="%ProgramFiles%\VMware\VMware Tools\glib-2.0.dll" FileName="libglib-2.0-0.dll" MinimumFileVersion="2.48.2.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5A" FriendlyName="%ProgramFiles%\VMware\VMware Tools\glibmm-2.4.dll" FileName="glibmm-2.4.dll" MinimumFileVersion="2.44.0.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5B" FriendlyName="%ProgramFiles%\VMware\VMware Tools\gmodule-2.0.dll" FileName="libgmodule-2.0-0.dll" MinimumFileVersion="2.48.2.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5C" FriendlyName="%ProgramFiles%\VMware\VMware Tools\gobject-2.0.dll" FileName="libgobject-2.0-0.dll" MinimumFileVersion="2.48.2.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5D" FriendlyName="%ProgramFiles%\VMware\VMware Tools\gthread-2.0.dll" FileName="libgthread-2.0-0.dll" MinimumFileVersion="2.48.2.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5E" FriendlyName="%ProgramFiles%\VMware\VMware Tools\guestStoreClient.dll" FileName="guestStoreClient.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5F" FriendlyName="%ProgramFiles%\VMware\VMware Tools\hgfs.dll" FileName="hgfs.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_60" FriendlyName="%ProgramFiles%\VMware\VMware Tools\iconv.dll" FileName="iconv.dll" MinimumFileVersion="1.15.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_61" FriendlyName="%ProgramFiles%\VMware\VMware Tools\intl.dll" FileName="intl.dll" MinimumFileVersion="0.19.8.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_62" FriendlyName="%ProgramFiles%\VMware\VMware Tools\libeay32.dll" FileName="libeay32.dll" MinimumFileVersion="1.0.2.18" />
+    <FileAttrib ID="ID_FILEATTRIB_F_63" FriendlyName="%ProgramFiles%\VMware\VMware Tools\pcre.dll" FileName="libpcre.dll" MinimumFileVersion="8.43.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_64" FriendlyName="%ProgramFiles%\VMware\VMware Tools\rpctool.exe" FileName="rpctool.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_65" FriendlyName="%ProgramFiles%\VMware\VMware Tools\rvmSetup.exe" FileName="rvmSetup.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_66" FriendlyName="%ProgramFiles%\VMware\VMware Tools\sigc-2.0.dll" FileName="sigc-2.0.dll" MinimumFileVersion="2.4.1.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_67" FriendlyName="%ProgramFiles%\VMware\VMware Tools\ssleay32.dll" FileName="ssleay32.dll" MinimumFileVersion="1.0.2.18" />
+    <FileAttrib ID="ID_FILEATTRIB_F_68" FriendlyName="%ProgramFiles%\VMware\VMware Tools\vmtools.dll" FileName="vmtools.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_69" FriendlyName="%ProgramFiles%\VMware\VMware Tools\vmtoolsd.exe" FileName="vmtoolsd.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6A" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMToolsHook.dll" FileName="VMToolsHook.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6B" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMToolsHook64.dll" FileName="VMToolsHook64.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6C" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMToolsHookProc.exe" FileName="VMToolsHookProc.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6D" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareHgfsClient.exe" FileName="hgfsclient.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6E" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareHostOpen.exe" FileName="VMwareHostOpen.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6F" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareNamespaceCmd.exe" FileName="namespacetool.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_70" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareResolutionSet.exe" FileName="ResolutionSet.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_71" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareToolboxCmd.exe" FileName="toolbox-cmd.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_72" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareXferlogs.exe" FileName="xferlogs.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_73" FriendlyName="%ProgramFiles%\VMware\VMware Tools\win64\vmGuestLib.dll" FileName="vmGuestLib.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_74" FriendlyName="%ProgramFiles%\VMware\VMware Tools\win64\vmGuestLibJava.dll" FileName="vmGuestLibJava.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_75" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\libxml2.dll" FileName="libxml2.dll" MinimumFileVersion="2.9.9.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_76" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\VGAuth.dll" FileName="VGAuth.dll" MinimumFileVersion="15.0.0.52475" />
+    <FileAttrib ID="ID_FILEATTRIB_F_77" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\VGAuthCLI.exe" FileName="VGAuthCLI.exe" MinimumFileVersion="11.0.5.52475" />
+    <FileAttrib ID="ID_FILEATTRIB_F_78" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe" FileName="VGAuthService.exe" MinimumFileVersion="11.0.5.52475" />
+    <FileAttrib ID="ID_FILEATTRIB_F_79" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\VMwareAliasImport.exe" FileName="VMwareAliasImport.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7A" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\VMWSU.dll" FileName="VMWSU.DLL" MinimumFileVersion="2.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7B" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmusr\darkModeSync.dll" FileName="darkModeSync.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7C" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmusr\desktopEvents.dll" FileName="desktopEvents.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7D" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmusr\dndcp.dll" FileName="dndcp.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7E" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmusr\unity.dll" FileName="unity.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7F" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmusr\vmtray.dll" FileName="vmtray.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_80" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\appInfo.dll" FileName="appInfo.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_81" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\autoLogon.dll" FileName="autoLogon.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_82" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\autoUpgrade.dll" FileName="autoUpgrade.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_83" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\bitMapper.dll" FileName="bitMapper.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_84" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\deployPkgPlugin.dll" FileName="deployPkgPlugin.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_85" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\disableGuestHibernate.dll" FileName="disableGuestHibernate.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_86" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\diskWiper.dll" FileName="diskWiper.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_87" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\guestInfo.dll" FileName="guestInfo.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_88" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\guestStore.dll" FileName="guestStore.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_89" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\hwUpgradeHelper.dll" FileName="hwUpgradeHelper.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_8A" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\powerOps.dll" FileName="powerOps.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_8B" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\resolutionSet.dll" FileName="resolutionSet.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_8C" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\timeSync.dll" FileName="timeSync.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_8D" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\vmbackup.dll" FileName="vmbackup.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_8E" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\common\hgfsServer.dll" FileName="hgfsServer.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_8F" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\common\hgfsUsability.dll" FileName="hgfsUsability.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_90" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\common\vix.dll" FileName="vix.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_18" FriendlyName="%ProgramFiles%\VMware\VMware Tools\7za.exe" FileName="7za.exe" MinimumFileVersion="18.6.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_19" FriendlyName="%ProgramFiles%\VMware\VMware Tools\deployPkg.dll" FileName="deployPkg.dll" MinimumFileVersion="11.0.5.15567" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A" FriendlyName="%ProgramFiles%\VMware\VMware Tools\gio-2.0.dll" FileName="libgio-2.0-0.dll" MinimumFileVersion="2.48.2.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B" FriendlyName="%ProgramFiles%\VMware\VMware Tools\glib-2.0.dll" FileName="libglib-2.0-0.dll" MinimumFileVersion="2.48.2.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C" FriendlyName="%ProgramFiles%\VMware\VMware Tools\glibmm-2.4.dll" FileName="glibmm-2.4.dll" MinimumFileVersion="2.44.0.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D" FriendlyName="%ProgramFiles%\VMware\VMware Tools\gmodule-2.0.dll" FileName="libgmodule-2.0-0.dll" MinimumFileVersion="2.48.2.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E" FriendlyName="%ProgramFiles%\VMware\VMware Tools\gobject-2.0.dll" FileName="libgobject-2.0-0.dll" MinimumFileVersion="2.48.2.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F" FriendlyName="%ProgramFiles%\VMware\VMware Tools\gthread-2.0.dll" FileName="libgthread-2.0-0.dll" MinimumFileVersion="2.48.2.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_20" FriendlyName="%ProgramFiles%\VMware\VMware Tools\guestStoreClient.dll" FileName="guestStoreClient.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_21" FriendlyName="%ProgramFiles%\VMware\VMware Tools\hgfs.dll" FileName="hgfs.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_22" FriendlyName="%ProgramFiles%\VMware\VMware Tools\iconv.dll" FileName="iconv.dll" MinimumFileVersion="1.15.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_23" FriendlyName="%ProgramFiles%\VMware\VMware Tools\intl.dll" FileName="intl.dll" MinimumFileVersion="0.19.8.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_24" FriendlyName="%ProgramFiles%\VMware\VMware Tools\libeay32.dll" FileName="libeay32.dll" MinimumFileVersion="1.0.2.18" />
+    <FileAttrib ID="ID_FILEATTRIB_F_25" FriendlyName="%ProgramFiles%\VMware\VMware Tools\pcre.dll" FileName="libpcre.dll" MinimumFileVersion="8.43.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_26" FriendlyName="%ProgramFiles%\VMware\VMware Tools\rpctool.exe" FileName="rpctool.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_27" FriendlyName="%ProgramFiles%\VMware\VMware Tools\rvmSetup.exe" FileName="rvmSetup.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_28" FriendlyName="%ProgramFiles%\VMware\VMware Tools\sigc-2.0.dll" FileName="sigc-2.0.dll" MinimumFileVersion="2.4.1.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_29" FriendlyName="%ProgramFiles%\VMware\VMware Tools\ssleay32.dll" FileName="ssleay32.dll" MinimumFileVersion="1.0.2.18" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2A" FriendlyName="%ProgramFiles%\VMware\VMware Tools\vmtools.dll" FileName="vmtools.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2B" FriendlyName="%ProgramFiles%\VMware\VMware Tools\vmtoolsd.exe" FileName="vmtoolsd.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2C" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMToolsHook.dll" FileName="VMToolsHook.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2D" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMToolsHook64.dll" FileName="VMToolsHook64.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2E" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMToolsHookProc.exe" FileName="VMToolsHookProc.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2F" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareHgfsClient.exe" FileName="hgfsclient.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_30" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareHostOpen.exe" FileName="VMwareHostOpen.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_31" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareNamespaceCmd.exe" FileName="namespacetool.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_32" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareResolutionSet.exe" FileName="ResolutionSet.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_33" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareToolboxCmd.exe" FileName="toolbox-cmd.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_34" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMwareXferlogs.exe" FileName="xferlogs.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_35" FriendlyName="%ProgramFiles%\VMware\VMware Tools\win64\vmGuestLib.dll" FileName="vmGuestLib.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_36" FriendlyName="%ProgramFiles%\VMware\VMware Tools\win64\vmGuestLibJava.dll" FileName="vmGuestLibJava.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_37" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\libxml2.dll" FileName="libxml2.dll" MinimumFileVersion="2.9.9.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_38" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\VGAuth.dll" FileName="VGAuth.dll" MinimumFileVersion="15.0.0.52475" />
+    <FileAttrib ID="ID_FILEATTRIB_F_39" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\VGAuthCLI.exe" FileName="VGAuthCLI.exe" MinimumFileVersion="11.0.5.52475" />
+    <FileAttrib ID="ID_FILEATTRIB_F_3A" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe" FileName="VGAuthService.exe" MinimumFileVersion="11.0.5.52475" />
+    <FileAttrib ID="ID_FILEATTRIB_F_3B" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\VMwareAliasImport.exe" FileName="VMwareAliasImport.exe" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_3C" FriendlyName="%ProgramFiles%\VMware\VMware Tools\VMware VGAuth\VMWSU.dll" FileName="VMWSU.DLL" MinimumFileVersion="2.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_3D" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmusr\darkModeSync.dll" FileName="darkModeSync.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_3E" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmusr\desktopEvents.dll" FileName="desktopEvents.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_3F" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmusr\dndcp.dll" FileName="dndcp.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_40" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmusr\unity.dll" FileName="unity.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_41" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmusr\vmtray.dll" FileName="vmtray.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_42" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\appInfo.dll" FileName="appInfo.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_43" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\autoLogon.dll" FileName="autoLogon.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_44" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\autoUpgrade.dll" FileName="autoUpgrade.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_45" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\bitMapper.dll" FileName="bitMapper.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_46" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\deployPkgPlugin.dll" FileName="deployPkgPlugin.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_47" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\disableGuestHibernate.dll" FileName="disableGuestHibernate.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_48" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\diskWiper.dll" FileName="diskWiper.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_49" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\guestInfo.dll" FileName="guestInfo.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4A" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\guestStore.dll" FileName="guestStore.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4B" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\hwUpgradeHelper.dll" FileName="hwUpgradeHelper.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4C" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\powerOps.dll" FileName="powerOps.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4D" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\resolutionSet.dll" FileName="resolutionSet.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4E" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\timeSync.dll" FileName="timeSync.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4F" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\vmsvc\vmbackup.dll" FileName="vmbackup.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_50" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\common\hgfsServer.dll" FileName="hgfsServer.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_51" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\common\hgfsUsability.dll" FileName="hgfsUsability.dll" MinimumFileVersion="11.0.5.17716" />
+    <FileAttrib ID="ID_FILEATTRIB_F_52" FriendlyName="%ProgramFiles%\VMware\VMware Tools\plugins\common\vix.dll" FileName="vix.dll" MinimumFileVersion="11.0.5.17716" />
+  </FileRules>
+  <!--Signers-->
+  <Signers>
+    <Signer ID="ID_SIGNER_F_1B" Name="DigiCert Assured ID Code Signing CA-1">
+      <CertRoot Type="TBS" Value="47F4B9898631773231B32844EC0D49990AC4EB1E" />
+      <CertPublisher Value="VMware, Inc." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_53" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_54" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_55" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_56" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_57" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_58" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_59" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5A" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5B" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5C" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5F" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_60" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_61" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_62" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_63" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_64" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_65" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_66" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_67" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_68" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_69" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6A" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6B" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6C" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6F" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_70" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_71" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_72" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_73" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_74" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_75" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_76" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_77" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_78" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_79" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7B" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7C" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7F" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_80" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_81" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_82" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_83" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_84" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_85" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_86" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_87" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_88" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_89" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8A" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8B" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8C" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8F" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_90" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_1C" Name="Symantec Class 3 SHA256 Code Signing CA">
+      <CertRoot Type="TBS" Value="A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1" />
+      <CertPublisher Value="VMware, Inc." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_53" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_54" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_55" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_56" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_57" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_58" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_59" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5A" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5B" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5C" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5F" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_60" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_61" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_62" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_63" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_64" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_65" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_66" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_67" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_68" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_69" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6A" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6B" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6C" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6F" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_70" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_71" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_72" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_73" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_74" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_75" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_76" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_77" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_78" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_79" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7A" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7B" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7C" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7F" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_80" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_81" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_82" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_83" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_84" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_85" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_86" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_87" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_88" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_89" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8A" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8B" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8C" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8F" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_90" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_89" Name="VeriSign Class 3 Code Signing 2010 CA">
+      <CertRoot Type="TBS" Value="4843A82ED3B1F2BFBEE9671960E1940C942F688D" />
+      <CertPublisher Value="VMware, Inc." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7A" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_8A" Name="Microsoft Windows Third Party Component CA 2013">
+      <CertRoot Type="TBS" Value="C55EE44C6DE86FA9AC3FC90F84EF0D4A6CAD5AAC6A112047C88B997E7547AED1" />
+      <CertPublisher Value="Microsoft Windows Software Compatibility Publisher" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7A" />
+    </Signer>
+    <Signer ID="ID_SIGNER_W_1" Name="Microsoft Windows Third Party Component CA 2012">
+      <CertRoot Type="TBS" Value="CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46" />
+      <CertEKU ID="ID_EKU_E_1" />
+      <CertOemID Value="VMware, Inc." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_A" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_C" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_11" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_13" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_15" />
+    </Signer>
+    <Signer ID="ID_SIGNER_W_6" Name="Microsoft Windows Third Party Component CA 2012">
+      <CertRoot Type="TBS" Value="CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46" />
+      <CertEKU ID="ID_EKU_E_1" />
+      <CertOemID Value="VMware, Inc." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_9" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_B" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_10" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_12" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_14" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_16" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_17" />
+    </Signer>
+  </Signers>
+  <!--Driver Signing Scenarios-->
+  <SigningScenarios>
+    <SigningScenario Value="131" ID="ID_SIGNINGSCENARIO_DRIVERS_1" FriendlyName="Auto generated policy on 03-23-2020">
+      <ProductSigners>
+        <AllowedSigners>
+          <AllowedSigner SignerId="ID_SIGNER_W_1" />
+        </AllowedSigners>
+      </ProductSigners>
+    </SigningScenario>
+    <SigningScenario Value="12" ID="ID_SIGNINGSCENARIO_WINDOWS" FriendlyName="Auto generated policy on 03-23-2020">
+      <ProductSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_ALLOW_A_91" />
+          <FileRuleRef RuleID="ID_ALLOW_A_92" />
+          <FileRuleRef RuleID="ID_ALLOW_A_93" />
+          <FileRuleRef RuleID="ID_ALLOW_A_94" />
+          <FileRuleRef RuleID="ID_ALLOW_A_95" />
+          <FileRuleRef RuleID="ID_ALLOW_A_96" />
+          <FileRuleRef RuleID="ID_ALLOW_A_97" />
+          <FileRuleRef RuleID="ID_ALLOW_A_98" />
+          <FileRuleRef RuleID="ID_ALLOW_A_99" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9A" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9B" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9C" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9D" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9E" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9F" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A1" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A2" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A3" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A4" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A5" />
+        </FileRulesRef>
+        <AllowedSigners>
+          <AllowedSigner SignerId="ID_SIGNER_F_1B" />
+          <AllowedSigner SignerId="ID_SIGNER_F_1C" />
+          <AllowedSigner SignerId="ID_SIGNER_F_89" />
+          <AllowedSigner SignerId="ID_SIGNER_F_8A" />
+          <AllowedSigner SignerId="ID_SIGNER_W_6" />
+        </AllowedSigners>
+      </ProductSigners>
+    </SigningScenario>
+  </SigningScenarios>
+  <UpdatePolicySigners />
+  <CiSigners>
+    <CiSigner SignerId="ID_SIGNER_F_1B" />
+    <CiSigner SignerId="ID_SIGNER_F_1C" />
+    <CiSigner SignerId="ID_SIGNER_F_89" />
+    <CiSigner SignerId="ID_SIGNER_F_8A" />
+    <CiSigner SignerId="ID_SIGNER_W_6" />
+  </CiSigners>
+  <HvciOptions>0</HvciOptions>
+  <PolicyTypeID>{A244370E-44C9-4C06-B551-F6016E563076}</PolicyTypeID>
+</SiPolicy>
