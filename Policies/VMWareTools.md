@@ -32,7 +32,7 @@ $VMWareFilesUser2 = Get-SystemDriver -ScanPath "$Env:ProgramFiles\VMware\VMware 
 
 [Microsoft.SecureBoot.UserConfig.DriverFile[]] $AllVMWareFiles = $VMWareInstallerDiscDriverFiles + $VMWareInstallerDiscUserFiles + $VMWareFilesDrivers + $VMWareFilesUser1 + $VMWareFilesUser2
 
-New-CIPolicy -DriverFiles $AllVMWareFiles -FilePath 'VMWareTools.xml' -Level 'WHQLFilePublisher' -Fallback 'FilePublisher, Hash'
+New-CIPolicy -DriverFiles $AllVMWareFiles -FilePath 'VMWareTools.xml' -Level 'WHQLFilePublisher' -Fallback 'FilePublisher', 'Hash'
 ```
 
 # Software build hygeine observations
